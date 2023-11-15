@@ -32,14 +32,16 @@ header {
 }
 
 .abrirMenu,
-.cerrarMenu {}
+.cerrarMenu {
+    display: none;
+}
 
 @media screen and (max-width: 600px) {
     .abrirMenu,
     .cerrarMenu {
         display: block;
         border: none;
-        font-size: 10.5rem;
+        font-size: 2.5rem;
         cursor: pointer;
     }
     .cerrarMenu {
@@ -58,8 +60,8 @@ header {
         right: 0;
         bottom: 0;
         background-color: blue;
-        padding: 3rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.50);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.35);
     }
     .menuPrincipal.visible {
         opacity: 1;
